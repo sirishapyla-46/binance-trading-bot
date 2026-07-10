@@ -1,0 +1,24 @@
+2026-04-23 19:23:18 | DEBUG    | orders | Logger initialised. Log file: logs\orders_20260423.log
+2026-04-23 19:23:18 | INFO     | orders | Order request | symbol=BTCUSDT side=BUY type=MARKET qty=0.001 price=None stop=None
+2026-04-23 19:23:18 | ERROR    | orders | Order failed (API): Binance API error -1021: Timestamp for this request was 1000ms ahead of the server's time.
+2026-04-23 19:25:00 | DEBUG    | orders | Logger initialised. Log file: logs\orders_20260423.log
+2026-04-23 19:25:00 | INFO     | orders | Order request | symbol=BTCUSDT side=BUY type=MARKET qty=0.001 price=None stop=None
+2026-04-23 19:25:01 | ERROR    | orders | Order failed (API): Binance API error -1021: Timestamp for this request was 1000ms ahead of the server's time.
+2026-04-23 19:35:13 | DEBUG    | orders | Logger initialised. Log file: logs\orders_20260423.log
+2026-04-23 19:35:13 | INFO     | orders | Order request | symbol=BTCUSDT side=BUY type=MARKET qty=0.001 price=None stop=None
+2026-04-23 19:35:14 | ERROR    | orders | Order failed (API): Binance API error -1022: Signature for this request is not valid.
+2026-04-23 19:39:43 | DEBUG    | orders | Logger initialised. Log file: logs\orders_20260423.log
+2026-04-23 19:39:43 | INFO     | orders | Order request | symbol=ETHUSDT side=SELL type=LIMIT qty=0.01 price=3500 stop=None
+2026-04-23 19:39:44 | ERROR    | orders | Order failed (API): Binance API error -1022: Signature for this request is not valid.
+2026-04-23 19:40:31 | DEBUG    | orders | Logger initialised. Log file: logs\orders_20260423.log
+2026-04-23 19:40:31 | INFO     | orders | Order request | symbol=BTCUSDT side=BUY type=STOP_MARKET qty=0.001 price=None stop=95000
+2026-04-23 19:40:32 | ERROR    | orders | Order failed (API): Binance API error -1022: Signature for this request is not valid.
+2026-04-23 20:10:49 | DEBUG    | orders | Logger initialised. Log file: logs\orders_20260423.log
+2026-04-23 20:10:49 | INFO     | orders | Order request | symbol=BTCUSDT side=BUY type=MARKET qty=0.001 price=None stop=None
+2026-04-23 20:10:50 | INFO     | orders | Order placed successfully | orderId=13065758710 status=NEW executedQty=N/A avgPrice=N/A
+2026-04-23 20:11:51 | DEBUG    | orders | Logger initialised. Log file: logs\orders_20260423.log
+2026-04-23 20:11:51 | INFO     | orders | Order request | symbol=ETHUSDT side=SELL type=LIMIT qty=0.01 price=3500 stop=None
+2026-04-23 20:11:52 | INFO     | orders | Order placed successfully | orderId=8661195662 status=NEW executedQty=N/A avgPrice=N/A
+2026-04-23 20:12:13 | DEBUG    | orders | Logger initialised. Log file: logs\orders_20260423.log
+2026-04-23 20:12:13 | INFO     | orders | Order request | symbol=BTCUSDT side=BUY type=STOP_MARKET qty=0.001 price=None stop=95000
+2026-04-23 20:12:14 | ERROR    | orders | Order failed (API): Binance API error -4120: Order type not supported for this endpoint. Please use the Algo Order API endpoints instead.

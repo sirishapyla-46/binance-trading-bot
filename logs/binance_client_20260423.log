@@ -1,0 +1,46 @@
+2026-04-23 19:23:18 | DEBUG    | binance_client | Logger initialised. Log file: logs\binance_client_20260423.log
+2026-04-23 19:23:18 | DEBUG    | binance_client | BinanceClient initialised. Base URL: https://testnet.binancefuture.com
+2026-04-23 19:23:18 | INFO     | binance_client | Placing BUY MARKET order | symbol=BTCUSDT qty=0.001 price=None stopPrice=None
+2026-04-23 19:23:18 | DEBUG    | binance_client | REQUEST  POST https://testnet.binancefuture.com/fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1776952398011, 'signature': 'a2f78fdc8c5bad647df2bda0d4163a7aee3f9c6dd9081d8a41d05cf482a3698b'}
+2026-04-23 19:23:18 | DEBUG    | binance_client | RESPONSE POST https://testnet.binancefuture.com/fapi/v1/order | status=400 | body={"code":-1021,"msg":"Timestamp for this request was 1000ms ahead of the server's time."}
+2026-04-23 19:23:18 | ERROR    | binance_client | API error: Binance API error -1021: Timestamp for this request was 1000ms ahead of the server's time.
+2026-04-23 19:25:00 | DEBUG    | binance_client | Logger initialised. Log file: logs\binance_client_20260423.log
+2026-04-23 19:25:00 | DEBUG    | binance_client | BinanceClient initialised. Base URL: https://testnet.binancefuture.com
+2026-04-23 19:25:00 | INFO     | binance_client | Placing BUY MARKET order | symbol=BTCUSDT qty=0.001 price=None stopPrice=None
+2026-04-23 19:25:00 | DEBUG    | binance_client | REQUEST  POST https://testnet.binancefuture.com/fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1776952500919, 'signature': 'a7fb6e9e4fcef0711eb5a53d4592e1a39ba98277fff8a42c6bead0a234d89707'}
+2026-04-23 19:25:01 | DEBUG    | binance_client | RESPONSE POST https://testnet.binancefuture.com/fapi/v1/order | status=400 | body={"code":-1021,"msg":"Timestamp for this request was 1000ms ahead of the server's time."}
+2026-04-23 19:25:01 | ERROR    | binance_client | API error: Binance API error -1021: Timestamp for this request was 1000ms ahead of the server's time.
+2026-04-23 19:35:13 | DEBUG    | binance_client | Logger initialised. Log file: logs\binance_client_20260423.log
+2026-04-23 19:35:13 | DEBUG    | binance_client | BinanceClient initialised. Base URL: https://testnet.binancefuture.com
+2026-04-23 19:35:13 | INFO     | binance_client | Placing BUY MARKET order | symbol=BTCUSDT qty=0.001 price=None stopPrice=None
+2026-04-23 19:35:13 | DEBUG    | binance_client | REQUEST  POST https://testnet.binancefuture.com/fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1776953113337, 'signature': '1acd27ea8376c7d5a358369bcf484cc0b06797ed7efe1756fef763cb93b8af88'}
+2026-04-23 19:35:14 | DEBUG    | binance_client | RESPONSE POST https://testnet.binancefuture.com/fapi/v1/order | status=400 | body={"code":-1022,"msg":"Signature for this request is not valid."}
+2026-04-23 19:35:14 | ERROR    | binance_client | API error: Binance API error -1022: Signature for this request is not valid.
+2026-04-23 19:39:43 | DEBUG    | binance_client | Logger initialised. Log file: logs\binance_client_20260423.log
+2026-04-23 19:39:43 | DEBUG    | binance_client | BinanceClient initialised. Base URL: https://testnet.binancefuture.com
+2026-04-23 19:39:43 | INFO     | binance_client | Placing SELL LIMIT order | symbol=ETHUSDT qty=0.01 price=3500 stopPrice=None
+2026-04-23 19:39:43 | DEBUG    | binance_client | REQUEST  POST https://testnet.binancefuture.com/fapi/v1/order | params={'symbol': 'ETHUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.01', 'price': '3500', 'timeInForce': 'GTC', 'timestamp': 1776953383726, 'signature': '8d23840d1bb77f9621a25ca251e8fc5334c0b3b5b19b4333459a14d4d6c9aeb0'}
+2026-04-23 19:39:44 | DEBUG    | binance_client | RESPONSE POST https://testnet.binancefuture.com/fapi/v1/order | status=400 | body={"code":-1022,"msg":"Signature for this request is not valid."}
+2026-04-23 19:39:44 | ERROR    | binance_client | API error: Binance API error -1022: Signature for this request is not valid.
+2026-04-23 19:40:31 | DEBUG    | binance_client | Logger initialised. Log file: logs\binance_client_20260423.log
+2026-04-23 19:40:31 | DEBUG    | binance_client | BinanceClient initialised. Base URL: https://testnet.binancefuture.com
+2026-04-23 19:40:31 | INFO     | binance_client | Placing BUY STOP_MARKET order | symbol=BTCUSDT qty=0.001 price=None stopPrice=95000
+2026-04-23 19:40:31 | DEBUG    | binance_client | REQUEST  POST https://testnet.binancefuture.com/fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'STOP_MARKET', 'quantity': '0.001', 'stopPrice': '95000', 'timestamp': 1776953431693, 'signature': 'b6ed9b21c479aac4796d7c91a4567b0b55c6f0eb45aa71e2c143c11f1fb1323e'}
+2026-04-23 19:40:32 | DEBUG    | binance_client | RESPONSE POST https://testnet.binancefuture.com/fapi/v1/order | status=400 | body={"code":-1022,"msg":"Signature for this request is not valid."}
+2026-04-23 19:40:32 | ERROR    | binance_client | API error: Binance API error -1022: Signature for this request is not valid.
+2026-04-23 20:10:49 | DEBUG    | binance_client | Logger initialised. Log file: logs\binance_client_20260423.log
+2026-04-23 20:10:49 | DEBUG    | binance_client | BinanceClient initialised. Base URL: https://testnet.binancefuture.com
+2026-04-23 20:10:49 | INFO     | binance_client | Placing BUY MARKET order | symbol=BTCUSDT qty=0.001 price=None stopPrice=None
+2026-04-23 20:10:49 | DEBUG    | binance_client | REQUEST  POST https://testnet.binancefuture.com/fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1776955249097, 'signature': '83bbd02b00f9b67972e98551ce50f26b9e830010f68a01f2e585de50ce076028'}
+2026-04-23 20:10:50 | DEBUG    | binance_client | RESPONSE POST https://testnet.binancefuture.com/fapi/v1/order | status=200 | body={"orderId":13065758710,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"6Y19WjOcmpmxiq1WvTAezb","price":"0.00","avgPrice":"0.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","cumQuote":"0.000000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updat
+2026-04-23 20:11:51 | DEBUG    | binance_client | Logger initialised. Log file: logs\binance_client_20260423.log
+2026-04-23 20:11:51 | DEBUG    | binance_client | BinanceClient initialised. Base URL: https://testnet.binancefuture.com
+2026-04-23 20:11:51 | INFO     | binance_client | Placing SELL LIMIT order | symbol=ETHUSDT qty=0.01 price=3500 stopPrice=None
+2026-04-23 20:11:51 | DEBUG    | binance_client | REQUEST  POST https://testnet.binancefuture.com/fapi/v1/order | params={'symbol': 'ETHUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.01', 'price': '3500', 'timeInForce': 'GTC', 'timestamp': 1776955311366, 'signature': '686e7643f4093455fac0452248e7304c89cbdfd5d7c009f9fb5bb41dea6b4c74'}
+2026-04-23 20:11:52 | DEBUG    | binance_client | RESPONSE POST https://testnet.binancefuture.com/fapi/v1/order | status=200 | body={"orderId":8661195662,"symbol":"ETHUSDT","status":"NEW","clientOrderId":"xGWMALkG5WYH6TlP1wonsd","price":"3500.00","avgPrice":"0.00","origQty":"0.010","executedQty":"0.000","cumQty":"0.000","cumQuote":"0.00000","timeInForce":"GTC","type":"LIMIT","reduceOnly":false,"closePosition":false,"side":"SELL","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"LIMIT","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTi
+2026-04-23 20:12:13 | DEBUG    | binance_client | Logger initialised. Log file: logs\binance_client_20260423.log
+2026-04-23 20:12:13 | DEBUG    | binance_client | BinanceClient initialised. Base URL: https://testnet.binancefuture.com
+2026-04-23 20:12:13 | INFO     | binance_client | Placing BUY STOP_MARKET order | symbol=BTCUSDT qty=0.001 price=None stopPrice=95000
+2026-04-23 20:12:13 | DEBUG    | binance_client | REQUEST  POST https://testnet.binancefuture.com/fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'STOP_MARKET', 'quantity': '0.001', 'stopPrice': '95000', 'timestamp': 1776955333202, 'signature': '2d75f65920e9ea3fe77a0b35f6b97b4a6bb73624feb6b71a77dd834ee03fbed1'}
+2026-04-23 20:12:14 | DEBUG    | binance_client | RESPONSE POST https://testnet.binancefuture.com/fapi/v1/order | status=400 | body={"code":-4120,"msg":"Order type not supported for this endpoint. Please use the Algo Order API endpoints instead."}
+2026-04-23 20:12:14 | ERROR    | binance_client | API error: Binance API error -4120: Order type not supported for this endpoint. Please use the Algo Order API endpoints instead.

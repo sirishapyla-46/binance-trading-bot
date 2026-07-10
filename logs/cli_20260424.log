@@ -1,0 +1,6 @@
+2026-04-24 18:46:51 | DEBUG    | cli | Logger initialised. Log file: logs\cli_20260424.log
+2026-04-24 18:46:51 | INFO     | cli | CLI invoked | symbol=BTCUSDT side=BUY type=MARKET qty=0.001 price=None stop=None
+2026-04-24 18:48:26 | DEBUG    | cli | Logger initialised. Log file: logs\cli_20260424.log
+2026-04-24 18:48:26 | INFO     | cli | CLI invoked | symbol=ETHUSDT side=SELL type=LIMIT qty=0.01 price=3500 stop=None
+2026-04-24 18:49:53 | DEBUG    | cli | Logger initialised. Log file: logs\cli_20260424.log
+2026-04-24 18:49:53 | INFO     | cli | CLI invoked | symbol=BTCUSDT side=BUY type=STOP_MARKET qty=0.001 price=None stop=95000

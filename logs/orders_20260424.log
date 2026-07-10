@@ -1,0 +1,9 @@
+2026-04-24 18:46:51 | DEBUG    | orders | Logger initialised. Log file: logs\orders_20260424.log
+2026-04-24 18:46:51 | INFO     | orders | Order request | symbol=BTCUSDT side=BUY type=MARKET qty=0.001 price=None stop=None
+2026-04-24 18:46:52 | INFO     | orders | Order placed successfully | orderId=13070624752 status=NEW executedQty=N/A avgPrice=N/A
+2026-04-24 18:48:26 | DEBUG    | orders | Logger initialised. Log file: logs\orders_20260424.log
+2026-04-24 18:48:26 | INFO     | orders | Order request | symbol=ETHUSDT side=SELL type=LIMIT qty=0.01 price=3500 stop=None
+2026-04-24 18:48:27 | INFO     | orders | Order placed successfully | orderId=8663044405 status=NEW executedQty=N/A avgPrice=N/A
+2026-04-24 18:49:53 | DEBUG    | orders | Logger initialised. Log file: logs\orders_20260424.log
+2026-04-24 18:49:53 | INFO     | orders | Order request | symbol=BTCUSDT side=BUY type=STOP_MARKET qty=0.001 price=None stop=95000
+2026-04-24 18:49:55 | ERROR    | orders | Order failed (API): Binance API error -4120: Order type not supported for this endpoint. Please use the Algo Order API endpoints instead.
